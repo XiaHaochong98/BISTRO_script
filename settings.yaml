@@ -1,0 +1,10 @@
+
+# EXPERIMENT_DIR: "/home/ubuntu/RANDOM_SEARCH_CORDON"
+EXPERIMENT_DIR: "/home/ubuntu/BISTRO/HaochongXia-OPT/per_mile/output"
+EXPERIMENT_DIR_2: "/home/ubuntu/BISTRO/HaochongXia-OPT/cordon/output"
+# EXPERIMENT_DIR_2: "/home/ubuntu/OPTIM_CORDON_AGG6"
+OUTPUT_DIR: "/home/ubuntu/Haochong_scripts/Output"
+
+#STANDARDS: "standardizationParameters.csv"
+STANDARDS: "per_mile_stds.csv"
+#STANDARDS: "common_stds.csv"

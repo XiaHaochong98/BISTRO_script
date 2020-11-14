@@ -1,0 +1,11 @@
+KPI,BAU_multiplier,Unit
+VMT, 1, miles
+TollRevenue, 1, $
+averageVehicleDelayPerPassengerTrip, 4700, hours
+averageTravelCostBurden_Work, 0.616, $
+averageTravelCostBurden_Secondary, 1.384, $
+busCrowding, 194, s
+costBenefitAnalysis, 1, %
+sustainability_GHG, 5420000, kg
+sustainability_PM, 115, g
+

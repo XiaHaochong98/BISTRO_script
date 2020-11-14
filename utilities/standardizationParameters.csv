@@ -1,0 +1,16 @@
+driveCommuteAccessibility,1.0,0.0
+transitCommuteAccessibility,1.0,0.0
+driveWorkAccessibility,nan,nan
+driveSecondaryAccessibility,1.0,0.0
+transitWorkAccessibility,nan,nan
+transitSecondaryAccessibility,1.0,0.0
+averageVehicleDelayPerPassengerTrip,1.0001280375425567,0.00021211677362562365
+motorizedVehicleMilesTraveled_total,nan,nan
+busCrowding,1.346287586210433,0.40457310370626876
+averageTravelCostBurden_Work,0.9641063757967622,0.01567075131520558
+averageTravelCostBurden_Secondary,0.9802061120952592,0.019338917205998306
+costBenefitAnalysis,1.0000000000000007,4.885780683467863e-16
+sustainability_GHG,1.000347899928252,0.0002919274654286798
+sustainability_PM,1.0,0.0
+TollRevenue,0.0,0.0
+VMT,0.0,0.0

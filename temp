@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+import csv
+
+filepath_network = "./fixed_data/network.csv"
+
+def load_network():
+    with open(filepath_network, "rt") as csvfile:
+        datareader = csv.reader(csvfile)
+        yield next(datareader)
+        for row in datareader:
+        	if row[0].isdigit():
+        		yield row
+        return
+
+def plotSiouxFauxMap():
+	for row in load_network():
+		if row[0].isdigit():
+			fromLocationX,fromLocationY,toLocationX,toLocationY = float(row[-4]),float(row[-3]),float(row[-2]),float(row[-1])
+			X = [fromLocationX,toLocationX]
+			Y = [fromLocationY, toLocationY]
+			plt.plot(X, Y, 'w')
+	ax = plt.gca()
+	ax.set_facecolor('black')
+	plt.savefig("sioux_faux.png")
+plotSiouxFauxMap()
